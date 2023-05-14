@@ -1,0 +1,28 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	text-align: center;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+	width: 50%;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+.square {
+	aspect-ratio: 1;
+	background-color: white;
+}
+
+.square:hover {
+	background-color: #c1121f;
+}
+
+.square-color {
+	background-color: #000;
+}
