@@ -6,17 +6,23 @@ body {
 	text-align: center;
 }
 
+.control-pane {
+	display: flex;
+	justify-content: center;
+	margin: 15px;
+}
+
 .grid-wrapper {
 	display: grid;
 	grid-template-columns: repeat(16, 1fr);
-	width: 50%;
 	margin: 0 auto;
+	width: 40vw;
+	height: 40vw;
 	border: 2px solid black;
 }
 
 .square {
-	aspect-ratio: 1;
-	background-color: white;
+	background-color: #fff;
 }
 
 .square:hover {
