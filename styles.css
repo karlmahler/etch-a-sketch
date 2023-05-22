@@ -9,7 +9,9 @@ body {
 .control-pane {
 	display: flex;
 	justify-content: center;
+	gap: 5px;
 	margin: 15px;
+	font-weight: bold;
 }
 
 .grid-wrapper {
@@ -27,8 +29,4 @@ body {
 
 .square:hover {
 	background-color: #c1121f;
-}
-
-.square-color {
-	background-color: #000;
 }

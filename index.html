@@ -15,6 +15,20 @@
 			<h1>Etch-a-Sketch</h1>
 			<div class="control-pane">
 				<button id="resize-grid">Re-size grid</button>
+				<button id="reset-grid">Reset</button>
+				<form id="drawing-modes">
+					<input type="radio" id="black" name="drawing-mode" value="black" checked>
+					<label for="black">Black</label>
+
+					<input type="radio" id="shade" name="drawing-mode" value="shade">
+					<label for="shade">Shade</label>
+
+					<input type="radio" id="random-color" name="drawing-mode" value="random-color">
+					<label for="random-color">Random color</label>
+
+					<input type="radio" id="erase" name="drawing-mode" value="erase">
+					<label for="erase">Erase</label>
+				</form>
 			</div>
 			<div class="grid-wrapper"></div>
 		</div>
